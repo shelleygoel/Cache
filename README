@@ -4,7 +4,7 @@ To run the file do at command line type:
     "python main.py"
     
 ### Assumptions
-- Last Recently Set is removed instead of least recently used.
+- Last Recently Set or GOT key is removed.
 - Python standard libary used
 - There are only spaces in the input if any (special spaces like tab are not handled)
 - Cache refreshes with each session

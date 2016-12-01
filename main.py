@@ -26,7 +26,7 @@ def main():
         try:
             cmd, keyvalue  = cmd.split(" ",1)
             assert cmd in ['GET','SET']
-        except ValueError:
+        except:
             print "ERROR"
         else:
             if cmd == 'GET':
