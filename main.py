@@ -1,4 +1,5 @@
 def main():
+    from cache import Cache
     print "Allowed Commands:\n\
     SIZE to set size of cache,\n\
     SET to set store a key value in the cache,\n\
@@ -17,6 +18,7 @@ def main():
     else:
         assert cache_size > 0, 'Invalid size for cache'
         cache = Cache(cache_size)
+        print "SIZE OK"
 
     while True:
         cmd = raw_input().strip()
